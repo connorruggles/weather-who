@@ -1,0 +1,55 @@
+*{
+    list-style-type: none;
+}
+
+.btn:hover {
+    background-color: navy;
+}
+
+.searchbtn {
+    display: flex;
+    display: block;
+    color: white;
+    height: 30px;
+    width: 125px;
+    margin: 9px;
+    background-color: rgb(77, 188, 240);
+}
+
+.searchbtn:hover {
+    background-color: white;
+    color: navy;
+}
+
+.currentContainer {
+    margin-top: -80px;
+    border-style: solid;
+    border-color: navy;
+    padding: 10px;
+    display: inline-block;
+    background-color: rgb(77, 188, 240);
+    width: 30%;
+    color: white;
+}
+
+.five-day {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cardHolder {
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+
+#forecast-container {
+    display: inline-flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+#history {
+    list-style-type: none;
+}
